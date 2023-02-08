@@ -1,4 +1,4 @@
-package com.games.reporitory;
+package com.games.repository;
 
 import java.util.List;
 

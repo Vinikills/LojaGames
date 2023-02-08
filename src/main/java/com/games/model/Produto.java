@@ -31,7 +31,7 @@ public class Produto {
 	public String ano;
 	
 
-//	@Size (min = 2, max = 100)
+	@Size (min = 2, max = 100)
 	public String faixaetaria;
 	
 
@@ -41,6 +41,10 @@ public class Produto {
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
 
+	@ManyToOne
+    @JsonIgnoreProperties("produto")
+    private Usuario usuario;
+	
 	public Long getId() {
 		return Id;
 	}

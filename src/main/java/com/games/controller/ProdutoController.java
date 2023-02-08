@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.games.model.Produto;
-import com.games.reporitory.CategoriaRepository;
-import com.games.reporitory.ProdutoRepository;
+import com.games.repository.CategoriaRepository;
+import com.games.repository.ProdutoRepository;
 
 @RestController
 @RequestMapping("/produtos")

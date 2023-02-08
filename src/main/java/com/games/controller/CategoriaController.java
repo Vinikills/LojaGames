@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.games.model.Categoria;
-import com.games.reporitory.CategoriaRepository;
+import com.games.repository.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categoria")
